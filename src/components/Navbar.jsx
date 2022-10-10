@@ -20,7 +20,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
                   className="nav-Link active text-warning p-3"
@@ -32,7 +32,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-Link text-warning" to={'/about'}>
-                  About
+                  My Cart
                 </Link>
               </li>
             </ul>
